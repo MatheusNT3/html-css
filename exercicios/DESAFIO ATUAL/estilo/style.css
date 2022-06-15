@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,900;1,400;1,500&display=swap');
+
+*
+{
+   margin: 0px;
+   padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root{
+--cor0:#986AD9;
+--cor1:#262240;
+--cor2:#8784D9;
+--cor2:#F2F2F2;
+--cor3:#0D0D0D;
+
+--fonte-padrao: 'Montserrat', sans-serif;
+--fonte-destaque: 'Montserrat', sans-serif;}
+
+body{background-color: #262240;
+color: #F2F2F2;
+font-family: var(--fonte-padrao);
+margin: auto;}
+
+
+h1{color:#986AD9;}
+
+
+header{
+font-family: var(--fonte-destaque);
+font-weight: bold;
+background: no-repeat center/cover url(../imagens/cabecalho.png);
+background-attachment: scroll;
+height: 350px;
+width: 100%;
+padding: 23px;}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li{
+    margin: 0 12px;
+    font-weight: 600;
+   
+}
+
+main{
+font-family: var(--fonte-destaque);
+font-weight: 600;
+min-width: 300px;
+max-width: 1200px;
+margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #262240;
+    background-color: #986AD9;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #4f4cab;
+}
+
+article{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.cabecalho{
+     position: absolute;
+     top: 20%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+
+
+#humano{
+   font-weight: 300;
+   font-style: italic;
+   text-align: center;
+   color: #F2F2F2;}
+
+#universo{
+    font-weight: bold;
+    text-align: center;
+    color: #F2F2F2;
+    font-size: 60px;
+}
+
+.texto{
+    font-size: 18px;
+    padding: 28px;
+}
+
+#titulo{
+    padding: 10px;
+}
+
+#contato {
+    text-align: right;
+    padding-bottom: 40px;
+    margin: 30px;
+}
+
+#filmes{display: flex;}

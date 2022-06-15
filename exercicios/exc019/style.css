@@ -1,0 +1,38 @@
+    @charset "UTF-8";
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Montserrat:wght@300&display=swap');
+    body {
+        background-color: #141414;
+        font-family: 'Montserrat';
+    }
+    
+    h1 {
+        color: rgb(150, 0, 209);
+        font-weight: bold;
+    }
+    
+    h1#principal {
+        color: aqua;
+        text-align: center;
+        background-color: rgb(150, 0, 209);
+    }
+    
+    h2 {
+        color: rgb(150, 0, 209);
+    }
+    
+    p {
+        color: white;
+        text-indent: 15px;
+    }
+    
+    .basico {
+        color: #16FF0A;
+    }
+    
+    .intermediario {
+        color: #FFEE00;
+    }
+    
+    .avancado {
+        color: red;
+    }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+
+<style>
+    body {
+        background-color: rgb(92, 43, 172);
+    }
+</style>
+
+<style>
+    body {
+        color: whitesmoke;
+    }
+</style>
+
+<body>
+    <h1>Inserindo vídeos hospedados localmente </h1>
+    <hr>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <video width="560" controls poster="imagens/unknown.png" loop>
+
+<source src="midia/meuvideo.mp4" type="video/mp4">
+<source src="midia/meuvideo720.m4v" type="video/mp4">
+
+<p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+
+    </video>
+
+    <h1>Inserindo vídeos do Youtube</h1>
+
+    <iframe width="560" height="450" src="https://www.youtube.com/embed/gYEdKSjfENs?list=PLxUgR1tfAQVPEVy8Lmt-nM1EBRglHN4IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+
+    <iframe src="https://player.vimeo.com/video/144277537?h=9c5b2cf7e8" width="560" height="450" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/144277537">Stephen Curry x 3 GAMES ( Highlight Montage)</a> from <a href="https://vimeo.com/oldnbaschool">OldNBAschool</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+
+</html>
