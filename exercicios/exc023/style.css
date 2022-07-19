@@ -7,20 +7,12 @@ body{
 table{
     width: 400px;
     border-collapse: collapse;
-    border: 5px solid rgb(173, 0, 150);
-}
-
-tr.linha{
-    background-color: blueviolet;
-    color: white;
-}
-
-tr.linha2{
-    background-color: aqua;
-    color: white;
+    height: 400px;
 }
 
 td {
     border: 1px solid black;
     padding: 8px;
+    text-align: center;
+    vertical-align: bottom;
 }
