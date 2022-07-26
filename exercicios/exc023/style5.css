@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body{
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+col.cnome{
+    background-color: lightgreen;
+}
+
+col.cgrupo{
+    background-color: powderblue;
+}
+
+col.cprof{
+    background-color: lightyellow;
+}
